@@ -7,7 +7,7 @@ namespace BinarySearch
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            int result = Search(new[] { 2, 4, 7, 11, 14, 18, 24, 28, 31, 36, 39, 43, 56, 59, 63, 67, 70, 72, 79 }, 28);
+            int result = Search(new[] { 4, 7, 11, 14, 18, 24, 28, 31, 36, 39, 43, 56, 59, 63, 67, 70, 72, 79 }, 28);
             Console.WriteLine($"The index of 28 is {result}");
         }
 
